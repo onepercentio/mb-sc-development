@@ -40,7 +40,7 @@ module.exports = {
     ganache: {
       url: 'http://127.0.0.1:7545',
       accounts: {
-        mnemonic: 'island rival olympic cargo source night mail poverty flavor impact normal isolate',
+        mnemonic: process.env.DEV_MNEMONIC,
         initialIndex: 0
       },
       network_id: 5777,
